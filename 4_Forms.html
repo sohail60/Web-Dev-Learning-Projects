@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <font size="5">
+        <h2>Form</h2>
+        <form action="website.com" method="post">
+        <div>
+            <label for="search">Search</label>
+            <input type="search" name="search" id="search">
+        </div>
+        <br>
+        <fieldset>
+            <legend>Profile</legend>
+            <div>
+                <label>
+                    Name: <input type="text" id="name" name="name" required="required">
+                </label>
+            </div>
+            <div>
+                <label>
+                    Username: <input type="text" id="username" name="username" required="required">
+                </label>
+            </div>
+            <div>
+                <label for="password">Password: </label>
+                <input type="password" id="password" name="password" required="required">
+            </div>
+            <div>
+                Gender:
+                <input type="radio" id="M" name="gender" value="M" required="required">
+                <label for="M">Male</label>
+                <input type="radio" id="F" name="gender" value="F">
+                <label for="F">Female</label>
+                <input type="radio" id="O" name="gender" value="O">
+                <label for="">Others</label>
+            </div>
+        </fieldset>
+        <br>
+        <div>Games You Play:
+            <input type="checkbox" id="pubg" name="games" value="pubg">
+            <label for="pubg">PUBG</label>
+            <input type="checkbox" id="gta" name="games" value="gta">
+            <label for="gta">GTA</label>
+            <input type="checkbox" id="freefire" name="games" value="freefire">
+            <label for="freefire">Freefire</label>
+            <input type="checkbox" id="coc" name="games" value="coc">
+            <label for="coc">COC</label>
+            <input type="checkbox" id="none" name="games" value="none" checked="checked">
+            <label for="none">None</label>
+        </div>
+        <br>
+        <div>
+            <label for="idcard">Id Card:</label>
+            <input type="file" id="idcard" name="idcard" required="required">
+        </div>
+        <br>
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" required="required">
+        </div>
+        <br>
+        <fieldset>
+            <legend>Contact Details</legend>
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="text" name="phone" id="phone" required="required">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required="required">
+            </div>
+            <div>
+                <label for="url">URL:</label>
+                <input type="url" name="url" id="url">
+            </div>
+        </fieldset>
+        <br>
+        <div>
+            <label for="desc">About Yourself:</label>
+            <br>
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="country">Country:</label>
+            <select name="country" id="country" required="required">
+                <option value="usa">AMERICA</option>
+                <option value="aus">AUSTRALIA</option>
+                <option value="eng">ENGLAND</option>
+                <option value="ind" selected="selected">INDIA</option>
+                <option value="rus">RUSSIA</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="">Interests:</label>
+            <br>
+            <select name="interests" id="interests" multiple="multiple">
+                <option value="dancing">Dancing</option>
+                <option value="singing">Singing</option>
+                <option value="gardening">Gardening</option>
+                <option value="playgames" selected="selected">Playing Games</option>
+            </select>
+        </div>
+            <input type="submit" name="submit" id="Submit">
+            <input type="reset" name="reset" id="Reset">
+            <input type="image" name="image" id="image" src="https://i.pinimg.com/236x/cf/9d/e1/cf9de14b847f5d6c38be815e11914c7f.jpg" width="60" height="60">
+        </form>
+</body>
+</html>
