@@ -1,0 +1,1 @@
+Anchor and Image Tag should be included in the First Web Page HTML
