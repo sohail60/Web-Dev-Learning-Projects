@@ -1,0 +1,84 @@
+/* This styling is for Button and Link */
+.btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .redirect {
+    background-color: rgb(240, 148, 148);
+    text-decoration: none;
+    width: 500px;
+    margin: 20px;
+    padding: 5px;
+  }
+  .redirect:visited {
+    background-color: rgb(88, 88, 235);
+  }
+  .redirect:hover {
+    background-color: rgb(98, 213, 248);
+  }
+  .redirect:active {
+    color: white;
+    background-color: black;
+  }
+
+  /* This styling is for Display(Image and Heading Centre Allignment) */
+  img {
+    display: block;
+    width: 150px;
+    margin: auto;
+  }
+  h2 {
+    text-align: center;
+  }
+
+.para1{
+padding: 20px;
+margin: 8px;
+}
+
+  .para2 {
+    background-color: aqua;
+    border: 4px solid red;
+
+    width: 1000px;
+    height: 100px;
+
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+
+    overflow: scroll;
+  }
+  ul{
+    background-color: hotpink;
+    overflow: auto;
+    border-radius: 25px;
+}
+li{
+    font-family: cascadia code;
+    font-size:larger ;
+    list-style-type: none;
+    float: left;
+    padding: 15px;
+}
+
+div{
+    float: right;
+    padding: 15px 50px;
+}
+
+input{
+    border-radius: 15px;
+    border: none;
+    width: 200px;
+    padding: 4px 17px;
+}

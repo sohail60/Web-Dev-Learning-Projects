@@ -5,12 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Intro</title>
-    <link rel="stylesheet" href="9_IntroCSS.css">
     <style>
         footer{
             color: darkmagenta;
             background-color: darkturquoise;
         }
+        /*Element Selector*/
+    p{        
+    color: brown;  /*Color by Name*/
+}
+
+/*id Selector*/
+#first{
+    color: yellow;
+    background-color: hotpink;
+}
+
+/*class Selector*/
+.greenBg{
+    color:#adff2f; /*GreenYellow   Color by Hex Value*/
+}
+
+.redClr{
+    background-color: rgb(255, 0, 0);   /*Color by RGB Value*/
+}
+
+/*Grouping Selector*/
+span,div{
+    color: crimson;
+}
     </style>
 </head>
 <body>
@@ -20,7 +43,7 @@
 
     <p id="first">This is a webpage.</p>
 
-    <p id="second" class="greenBg redClr">It is cretaed to show the functions of CSS.</p>
+    <p id="second" class="greenBg redClr">It is created to show the functions of CSS.</p>
 
     <span>CSS is used to design the webpage.</span>
 
