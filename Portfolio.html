@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- <link rel="stylesheet" href="Portfolio.css"> -->
+    <style>
+     body{
+         background-color: rgb(161, 252, 252);
+     }
+        #nav{
+    background-color: #ff055b;
+    overflow: auto;
+    border-radius: 25px;
+}
+#nav li{
+    font-family: cascadia code;
+    font-size:larger ;
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: greenyellow;
+}
+
+#search{
+    float: right;
+    padding: 15px 50px;
+}
+
+input{
+    border-radius: 15px;
+    border: none;
+    width: 200px;
+    padding: 7px 17px;
+}
+
+#welcome{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 119, 7);
+}
+
+#photo{
+    width: 500px;
+    float: left;
+    margin-left: 15px;
+}
+
+#achievements{
+    float: right;
+    margin-right: 150px;
+}
+
+#achievements ul h1{
+    font-size: 60px;
+    font-family: sans-serif;
+}
+#achievements ul h1 span{
+    color: #fd4766;
+}
+#achievements li{
+    list-style-type: none;
+    margin: 20px;
+    padding: 28px;
+    font-size: 35px;
+    font-family: sans-serif,poppins,Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    float:right;
+    width: 160px;
+    margin: 20px;
+    padding: 15px;
+}
+    </style>
+</head>
+<body >
+    
+    <header>
+        <nav class="nav">
+            <ul id="nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">Profile</a></li>
+                <li><a href="">Achievements</a></li>
+                <li><a href="">Contact Me</a></li>
+                <div id="search">
+                    <input type="text" name="search" placeholder="Search">
+                </div>
+            </ul>
+          </nav>
+        </header>
+
+        <h1 id="welcome">Welcome to my Portfolio</h1>
+
+        <div>
+            <img id="photo" src="image.jpg" alt="">
+        </div>
+        <div id="achievements">
+            <ul >
+                <h1>Hey! I'm <span>Md Sohail Ansari</span></h1>
+                <li>Hometown: Dhanbad</li>
+                <li>College: IIIT Bhagalpur</li>
+                <li>10th Percentage: 89.8%</li>
+                <li>12th Percentage: 92.4%</li>
+                
+            </ul>
+        </div>
+        <div>
+        <a class="contact" href="https://github.com/sohail60"><img src="github.png" alt=""></a>
+        <a class="contact" href="https://mobile.twitter.com/sohail_infinity"><img src="twitter.png" alt=""></a>
+        <a class="contact" href="https://www.instagram.com/sohail_infinity/"><img src="insta.png" alt=""></a>
+        <a class="contact" href="https://www.linkedin.com/in/md-sohail-ansari-786123202/"><img src="linkedin.png" alt=""></a>
+        
+    </div>
+</body>
+</html>
