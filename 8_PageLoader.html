@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Loader</title>
+<style>
+    body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+    #pageloader{
+        width: 150px;
+        height: 150px;
+    }
+
+    .circle{
+        fill:none;
+        stroke-width: 10px;
+        stroke-linecap: round;
+    }
+
+    #c1{
+        stroke:greenyellow;
+        stroke-dasharray: 50;
+        animation-delay: -.2s;
+    }
+    #c2{
+        stroke:#cc0099;
+        stroke-dasharray: 80;
+        animation-delay: -.5s;
+    }
+    #c3{
+        stroke:yellow;
+        stroke-dasharray: 180;
+        animation-delay: -.8s;
+    }
+    #c4{
+        stroke:#ff0040;
+        stroke-dasharray: 350;
+        animation-delay: -.11s;
+        stroke-dashoffset: -100;
+    }
+
+    @keyframes animation {
+        50%{
+            transform: rotate(360deg);
+        }
+    }
+
+        .circle{
+            animation-name: animation;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            transform-origin: center center;
+        }
+</style>
+
+</head>
+<body>
+    <svg id="pageloader">
+        <circle class="circle" id="c1" cx="75" cy="75" r="20"/>
+        <circle class="circle" id="c2" cx="75" cy="75" r="35"/>
+        <circle class="circle" id="c3" cx="75" cy="75" r="50"/>
+        <circle class="circle" id="c4" cx="75" cy="75" r="65"/>
+       </svg>
+</body>
+</html>
