@@ -58,27 +58,3 @@ margin: 8px;
 
     overflow: scroll;
   }
-  ul{
-    background-color: hotpink;
-    overflow: auto;
-    border-radius: 25px;
-}
-li{
-    font-family: cascadia code;
-    font-size:larger ;
-    list-style-type: none;
-    float: left;
-    padding: 15px;
-}
-
-div{
-    float: right;
-    padding: 15px 50px;
-}
-
-input{
-    border-radius: 15px;
-    border: none;
-    width: 200px;
-    padding: 4px 17px;
-}
